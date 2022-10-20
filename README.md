@@ -38,8 +38,54 @@ FLUS PRIVILAGES;
 EXIT;
 
 c. Instalasi Gibbon
+
 $ sudo wget https://github.com/GibbonEdu/core/archive/refs/tags/v24.0.00.zip
 
 $ sudo unzip v24.0.00.zip
 
 $ sudo cp -r core-24.0.00/* /var/www/html/gibbon
+
+$ sudo chown -R www-data:www-data /var/www/html/gibbon/
+
+$ sudo chmod -R 755 /var/www/html/gibbon/
+
+$ cd /var/www/html/gibbon/
+
+$ sudo apt install composer -y
+
+$ sudo composer install
+
+d. Konfigurasi Apache
+
+1. Edit default Apache virtual host configuration file 000-default.conf
+
+$ sudo nano /etc/apache2/sites-available/000-default.conf
+
+<VirtualHost *:80>
+    ServerAdmin admin@example.com
+    DocumentRoot /var/www/html/gibbon
+
+     <Directory /var/www/html/gibbon/>
+          Options FollowSymlinks
+          AllowOverride All
+          Require all granted
+     </Directory>
+
+     ErrorLog ${APACHE_LOG_DIR}/error.log
+     CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+     <Directory /var/www/html/gibbon/>
+            RewriteEngine on
+            RewriteBase /
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule ^(.*) index.php [PT,L]
+    </Directory>
+</VirtualHost>
+
+$ sudo a2enmod rewrite
+
+$ sudo systemctl restart apache2
+
+e. Acces Gibbon Web Interface
+
+http://192.0.2.10
