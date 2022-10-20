@@ -108,6 +108,6 @@ $ sudo systemctl restart apache2
 
 #### e. Acces Gibbon Web Interface
 
-http://192.0.2.10
+http://34.87.56.48
 
 ---
