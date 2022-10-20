@@ -1,8 +1,8 @@
 # GibbonEdu
 
-![](https://github.com/aiwillsurvaiv/First-Project/blob/main/gibbon-logo-flat.png)
+![](https://camo.githubusercontent.com/b9d2769edd3e7a5cdd59d0f429f2f1c796a163d38b812498d00b9691fed7d593/68747470733a2f2f676962626f6e6564752e6f72672f696d672f676962626f6e2d6c6f676f2e706e67)
 
-> Gibbon merupakan sebuah platform open source untuk school management yang bersifat fleksibel. Aplikasi ini dirancang untuk mempermudah para guru, murid, orang tua, dan lembaga instansi sekolah.
+> Gibbon merupakan sebuah *platform open source* untuk *school management* yang bersifat fleksibel. Aplikasi ini dirancang untuk mempermudah para guru, murid, orang tua, dan lembaga instansi sekolah.
 
 ---
 
@@ -25,8 +25,8 @@
 ---
 
 ## Instalasi
-Prerequisites:
-  1. Deploy Vultr Ubuntu 20.04 server terbaru
+Kebutuhan Sistem
+  1. Ubuntu 20.04
   2. Buat non-root user dengan sudo access.
   
 #### a. Install Apache, MariaDB, dan PHP
