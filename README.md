@@ -10,6 +10,7 @@
 - [Anggota Kelompok](#anggota-kelompok)
 - [Instalasi](#instalasi)
 - [Dokumentasi Website](#dokumentasi-website)
+- [Referensi](#referensi)
 
 ---
 
@@ -133,3 +134,12 @@ http://34.87.56.48/
 ![](https://github.com/aiwillsurvaiv/First-Project/blob/main/dokum-komdat-2.png)
 
 ---
+
+## Referensi
+
+1. [About Gibbon](https://gibbonedu.org/about/)
+2. [How to Install Gibbon LMS on Ubuntu 20.04)(https://www.vultr.com/docs/install-gibbon-lms-on-ubuntu-20-04/)
+3. [Product Review of Gibbon](https://www.thetechedvocate.org/product-review-of-gibbon/)
+
+---
+
