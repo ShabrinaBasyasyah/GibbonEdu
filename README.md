@@ -138,7 +138,7 @@ http://34.87.56.48/
 ## Referensi
 
 1. [About Gibbon](https://gibbonedu.org/about/)
-2. [How to Install Gibbon LMS on Ubuntu 20.04)(https://www.vultr.com/docs/install-gibbon-lms-on-ubuntu-20-04/)
+2. [How to Install Gibbon LMS on Ubuntu 20.04](https://www.vultr.com/docs/install-gibbon-lms-on-ubuntu-20-04/)
 3. [Product Review of Gibbon](https://www.thetechedvocate.org/product-review-of-gibbon/)
 
 ---
