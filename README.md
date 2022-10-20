@@ -1,6 +1,6 @@
 # GibbonEdu
 
-![](https://camo.githubusercontent.com/b9d2769edd3e7a5cdd59d0f429f2f1c796a163d38b812498d00b9691fed7d593/68747470733a2f2f676962626f6e6564752e6f72672f696d672f676962626f6e2d6c6f676f2e706e67)
+![](https://github.com/ShabrinaBasyasyah/GibbonEdu/blob/main/img/gibbon-logo-flat.png)
 
 > Gibbon merupakan sebuah *platform open source* untuk *school management* yang bersifat fleksibel. Aplikasi ini dirancang untuk mempermudah para guru, murid, orang tua, dan lembaga instansi sekolah.
 
@@ -88,7 +88,7 @@ $ sudo composer install
 ```
 
 #### d. Konfigurasi Apache
-###### 1. Edit default Apache virtual host configuration file 000-default.conf
+###### Edit default Apache virtual host configuration file 000-default.conf
 
 ```
 $ sudo nano /etc/apache2/sites-available/000-default.conf
@@ -130,8 +130,8 @@ http://34.87.56.48/
 
 ## Dokumentasi Website
 
-![](https://github.com/aiwillsurvaiv/First-Project/blob/main/dokum-komdat-1.png)
-![](https://github.com/aiwillsurvaiv/First-Project/blob/main/dokum-komdat-2.png)
+![](https://github.com/ShabrinaBasyasyah/GibbonEdu/blob/main/img/dokum-komdat-1.png)
+![](https://github.com/ShabrinaBasyasyah/GibbonEdu/blob/main/img/dokum-komdat-2.png)
 
 ---
 
