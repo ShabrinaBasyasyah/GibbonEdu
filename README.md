@@ -50,7 +50,7 @@ $ sudo mysql
 CREATE DATABASE gibbondb;
 ```
 
-###### 3. Buatlah user baru dengan password StrongPassword
+###### 3. Buatlah user baru dan masukkan password
 
 ```
 CREATE USER 'gibbon'@'localhost' IDENTIFIED BY 'StrongPassword';
